@@ -11,6 +11,8 @@ from my_utils import *
 from tqdm import tqdm
 from datetime import datetime
 from roboflow import Roboflow
+from dotenv import load_dotenv
+load_dotenv()
 
 
 ###   supress warnings  ###
